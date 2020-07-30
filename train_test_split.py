@@ -24,7 +24,7 @@ def train_test_split(x_trainwell, y_trainwell, test_loc, test_inc):
     X_train = x_trainwell
     Y_train = y_trainwell
     
-    index = np.zeros((test_len,1))
+    index = np.zeros((test_len,1),dtype=int)
     
     a = 0
     
