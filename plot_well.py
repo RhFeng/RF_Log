@@ -211,7 +211,7 @@ def plot_pred_interval(model, Y_test, X_test, test_loc, test_inc, d):
         plt.fill_between(depth,A2[0,:],A2[1,:], color='k', alpha=.1,label="30%")
         plt.legend(loc='best')
         ax.set_xlabel('Depth (m)',fontsize= 14)
-        ax.set_ylabel('DTS (ns/ft)',fontsize = 14)           
+        ax.set_ylabel('DTS (μs/ft)',fontsize = 14)           
         ax.grid(linestyle='-.',linewidth=1.5)
         ax.tick_params(labelsize = 12)  
         ax.spines['bottom'].set_linewidth(1.5)
